@@ -1,0 +1,179 @@
+html{
+    font-size: clamp(1rem, calc(0.5rem + 1.5vw), 3rem);
+    font-family: "Heebo", sans-serif;
+
+}
+a.atual{
+    color: rgb(255, 60, 92);
+    border-radius: 18px;
+}
+
+
+/*=== Header ===*/
+header ul li{
+    color: #21243D;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3vw;
+    padding:  0vw 5vw 0vw 0vw;
+    display: inline;
+}
+
+/*=== Banner ===*/
+section.banner{
+    text-align: center;
+    padding: 10vw 2vw 10vw 2vw;
+}
+
+section.banner img{
+    width: 50%
+}
+
+section.banner h1{
+    font-size: 2rem;
+}
+
+section.banner p{
+    padding: 1vw 0vw 1vw 0vw;
+}
+
+section.banner p a{
+    background-color: #FF6464;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+section.rc-posts{
+    background-color: #caecf6;    
+    padding: 2vw 2vw 5vw 2vw;
+}
+
+section.rc-posts h2{
+    text-align: center;
+    padding: 5px 5px 2px 2px;
+}
+
+section.rc-posts ul li{
+    margin: 3vw 0vw 3vw 0vw;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+section.rc-posts ul li h3{
+    font-size: 1.3rem;
+    color: #21243D;
+    font-weight: 700;
+
+}
+
+section.rc-posts ul li p{
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+/*===Feature-Works===*/
+
+section.feature-works h2{
+    text-align: center;
+    padding: 5px 5px 2px 2px;
+}
+
+section.feature-works ul li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.457);
+    margin: 3vw 0vw 3vw 0vw;
+    padding: 30px 10px 30px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+section.feature-works ul li h3{
+    font-size: 1.3rem;
+    color: #21243D;
+    font-weight: bolder;
+}
+
+section.feature-works ul li p.info{
+    color: #8695A4;
+}
+section.feature-works ul li p.info span{
+    color: white;
+    font-weight: bolder;
+    background-color: #142850;
+    border-radius: 20px;
+    padding: 0.2vw 1.2vw 0vw 1.2vw;
+    display: inline-block;
+    margin: 2vw  3vw 1vw 0vw;
+}
+
+/*===footer===*/
+
+footer nav{
+    text-align: center;
+}
+
+footer nav a{
+    display: inline-block;
+    margin: 30px 30px 0px 30px;
+}
+
+footer nav a img{
+    width: 7vw;
+}
+
+footer p{
+    padding: 4vw 0vw 0vw 0vw;
+    color: #21243D;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section.blog-ft-works ul li p span{
+    color: white;
+    font-weight: bolder;
+    background-color: #FF7C7C;
+    border-radius: 20px;
+    padding: 0.2vw 1.2vw 0vw 1.2vw;
+    display: inline-block;
+    margin: 2vw  3vw 1vw 0vw;
+}
+
+/*=== blog.html feature works===*/
+
+section.blog-ft-works h1{
+    padding: 30px 0px 0px 10px;
+    font-size: 3rem;    
+    color: #21243D;
+    font-weight: 350;
+}
+
+section.blog-ft-works ul li{
+    margin: 3vw 0vw 3vw 0vw;
+    padding: 10px 10px 30px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.457);
+    border-radius: 20px;
+}
+
+section.blog-ft-works ul li h2{
+    font-size: 2rem;
+    color: #21243D; 
+    font-weight: 600;   
+}
+
+section.blog-ft-works ul li h3{
+    margin: 1vw 0vw 0vw 0vw;
+    font-size: 1.4rem;
+    color: #21243D; 
+    font-weight: 600;   
+}
+
+section.blog-ft-works ul li p{
+    margin: 2vw 1vw 2vw 0vw;
+}
+
+section.blog-ft-works ul li img{
+    margin: 0vw 0vw 3vw 0vw;
+    width: 80vw;
+    border-radius: 10px;
+}

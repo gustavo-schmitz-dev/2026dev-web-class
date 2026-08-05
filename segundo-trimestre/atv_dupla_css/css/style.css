@@ -1,0 +1,44 @@
+body{
+    background-color: #F5F5F5;
+}
+header nav a{
+    font-size: 2rem;
+}
+header nav a span{
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 100px;
+  padding: 1vw 3vw 1vw 3vw;
+}
+
+header nav ul li{
+  text-align: center;
+  margin: 3vw 0vw 2vw 0vw;
+}
+
+section.alex h1 {
+font-size: 3rem;
+margin: 1vw 0vw 1vw 1vw;
+
+}
+section.alex p{
+    color: #757575;
+    
+}
+section.works ul li{
+    background-color: white;
+    margin: 1vw 3vw 1vw 3vw;
+    padding: 8vw 5vw 8vw 5vw;
+    border-radius: 20px;    
+}
+
+section.works ul li p span{
+    display: inline-block;
+    text-align: center;
+    background-color: #F5F5F5;
+    margin: 1vw 1vw 1vw 1vw;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+    font-weight: 800;
+    border-radius: 20px;
+}

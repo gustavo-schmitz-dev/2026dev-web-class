@@ -1,0 +1,12 @@
+Erro1: Segunda abertura do body (primeira da linha 8 e outra na linha 13);
+Erro2: Tag <p> colocado dentro de uma tag <h3> (linha 21);
+Erro3: Tag <p> colocado dentro de uma tag <h3> (linha 24);
+Erro4: Tag <strong> não é fechada (linha 26);
+Erro6: Elemento <ol> dentro de <ul> causa erro inesperado(linha 47);
+Erro7: Aspas duplas da tag <li> não são fechadas(Linha 54);
+Erro8: Aspas duplas da tag <li> não são fechadas(Linha 57);
+Erro9: A tag <h2> é iniciado como "</h2>"(Linha 62);
+Erro10: O for="" da tag <label> não é preenchido(Linha 78);
+Erro11: O id não preenchido(linha 83);
+Erro12: Finaliação </p> sem abertura da tag(Linha 102);
+Erro13: <footer> iniciado fora do body(Linha 107);

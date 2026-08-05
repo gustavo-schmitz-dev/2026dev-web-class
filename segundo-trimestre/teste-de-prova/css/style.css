@@ -1,0 +1,106 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 1vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1, h2, h3{
+    font-family: "Nunito", sans-serif;
+}
+h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+.btn{
+    color: white;
+    background-color: #FFD40D;
+    padding: 3vw 3vw;
+    border-radius: 6px
+}
+
+/*===header===*/
+
+header{
+    text-align: center;
+    font-weight: 700;
+}
+
+header ul li{
+    margin: 0vw 0vw 4vw 0vw;
+}
+
+/*===main===*/
+
+.banner{
+    padding: 5vw 10vw;
+    background-color:#fd5a5a;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.banner p{
+    margin: 3vw;
+}
+
+.banner h2{
+    display: inline-block;
+    color: white;
+    background-color:#ED274B;
+    padding: 2vw 3vw;
+    margin: 4vw 0vw;
+    border-radius: 18px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.perfect{
+    text-align: center;
+    padding: 5vw 10vw;
+    
+}
+
+.perfect h1{
+    color: #F3274C;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.perfect h2{
+    margin: 3vw 0vw;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.perfect ul li{
+    margin: 5vw 0vw;
+}
+
+.perfect h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 2vw 0vw;
+}
+
+.crispy{
+    text-align: center;
+    padding: 5vw 10vw;
+    background-color: #8598b9;
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+}

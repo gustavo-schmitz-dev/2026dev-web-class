@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Revisando:
+        </h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <input type="checkbox" name="carlos" value="carlos" id="carlos2">
+            <label for="carlos2">
+                <strong>Carlos</strong>
+            </label>
+
+            <p>
+                <label for="opcao">
+                    Escolha um assunto
+                </label>
+                <input type="checkbox" name="opcao" id="opcao">
+            </p>
+
+            <p>
+                textarea
+            </p>
+            <label for="textareaa"></label>
+             <!--
+                rows é altura e cols largura
+                maxlength é o número máximo de caracteres
+             -->
+            <textarea 
+                name="textareaa"
+                id="textareaa"
+                rows="4" 
+                cols="40"
+                maxlength="20"
+                required>
+            </textarea>
+            
+            <label for="dropdown">dropdown</label>
+            <select name="teste" id="dropdown">
+                <option value="123">123</option>
+                <option value="woow">wooow</option>
+            </select>
+
+            <p>
+                <input type="submit" name="enviar2" value="ENVIAR">
+                <input type="reset" name="reset" value="RESETAR">
+            </p>
+
+            <fieldset>
+                <legend>Jango melhor presidente</legend>
+                <input type="radio" name="opcoes" value="claro " id="sim">
+                <label for="sim"> 
+                    <strong>SIM</strong>
+                </label>
+
+                <input type="radio" name="opcoes" value="claro" id="claro">
+                <label for="claro">
+                    <strong>
+                        CLARO
+                    </strong>
+                </label>
+
+                <label>
+                    Envie seu arquivo
+                    <input type="file" name="arquivo01" required>
+                </label>
+            </fieldset>
+        </form>
+
+        <!--
+        Forma simplificada e direta
+        -->
+
+        <video src="caminho.extensao" width="300" height="300" controls>    
+        </video>
+
+        <!--
+        Forma completa e normalmente recomendada,
+        permite recursos que facilita o multiformato ](uso de dois sources por segurança de compatibilidade)
+        -->
+
+        <video width="300" height="300" controls>
+            <source src="caminho.extensao" type="video/.tipo">
+        </video>
+
+        <iframe width="200" height="170" src="https://www.youtube.com/embed/qigIYJWsyWE" title="Hino da União Soviética" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+</body>
+</html>
