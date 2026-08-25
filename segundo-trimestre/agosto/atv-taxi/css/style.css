@@ -1,4 +1,4 @@
 .banner {
-  background: url(../images/background-footer.png) no-repeat;
+  background: url(../images/background-footer.png) no-repeat, linear-gradient(rgb(196, 193, 193));
   background-size: auto 100%;
 }
