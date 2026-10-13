@@ -1,0 +1,187 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+
+.atual{
+    color: #ED672B;
+}
+
+.orange-btn{
+    border-radius: 20px;
+    background-color: #ED672B;
+    color: white;
+    padding: 2vw 6vw;
+}
+
+.white-btn{
+    border-radius: 20px;
+    background-color: white;
+    color: #ED672B;
+    padding: 2vw 6vw;
+}
+
+html{
+    font-size: clamp(1rem, 1vw + 0.8rem, 3rem); 
+    font-family: "Urbanist", sans-serif;
+}
+
+/*=============
+      header
+===============*/
+
+header{
+    text-align: center;
+    padding: 4vw;
+}
+
+header nav li{
+    margin: 6vw;
+}
+
+/*==============
+      main
+===============*/
+
+.banner{
+    text-align: center;
+    padding: 4vw;
+    background-color:#FEF8F5;	 
+}
+
+.banner h2{
+    color: #ED672B;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.why{
+    text-align: left;
+    padding: 12vw;
+}
+
+.why h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.why li{
+    margin: 8vw 0;
+}
+
+.customer{
+    text-align: center;
+    padding: 4vw;
+}
+
+.customer h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.customer img{
+    margin: 4vw 0;
+}
+
+.get{
+    text-align: left;
+    background-color: #ED672B;
+    color: white;
+    padding: 6vw 6vw 0vw 6vw;
+}
+
+.get h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.get p{
+    margin: 4vw 0;
+}
+
+/*===========
+    footer
+============*/
+
+footer{
+    background-color: #05073C;
+    color: white;
+    text-align: left;
+    padding: 4vw;
+}
+
+footer h4{
+    margin: 4vw 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+footer p{
+    margin: 4vw 0;
+}
+
+footer li{
+    margin: 4vw 0;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header, header nav, header ul{
+        display: flex;
+    }
+
+    header nav{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header ul{
+        gap: 4vw;
+    }
+
+    header nav li{
+        margin: 0;
+        padding: 0;
+    }
+
+    .orange-btn{
+        padding: 1vw 2vw;
+        border-radius: 40px;
+    }
+
+    .white-btn{
+        padding: 1vw 2vw;
+        border-radius: 40px;    
+    }
+
+    .why ul{
+        display: flex;
+        gap: 4vw;
+    }
+
+    .customer{
+        margin: 0 0 6vw 0;
+    }
+
+    .get{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 6vw;
+    }
+}
