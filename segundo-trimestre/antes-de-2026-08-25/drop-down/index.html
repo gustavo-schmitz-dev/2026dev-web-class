@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Down</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li>
+            <a href="#">Produto</a>
+            <ul>
+              <li href="#"><a href="#">Notebook</a></li>
+              <li href="#"><a href="">Smartphone</a></li>
+              <li href="#"><a href="">Acessórios</a></li>
+              <li href="#"><a href="#">Ofertas</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Serviço</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: inherit;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+    header nav ul{
+        background-color: rgb(45, 45, 94);
+        color: white;
+    }
+
+      header nav > ul {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      header ul li{
+        padding: 2vw;
+      }
+
+      header nav ul li ul {
+        opacity: 0;
+        position: absolute;
+        transition: opacity 1s;
+        pointer-events: none;
+        background-color:white;
+        color: black;
+        border-radius: 10px;
+        padding: 1vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        gap: 1.2vw;
+    }
+
+      header nav:hover ul {
+        pointer-events: auto;
+        opacity: 1;
+        transition: opacity 1s;
+      }
+
+      header nav ul li:hover{
+        background-color: rgb(0, 140, 255);
+      }
+    </style>
+  </body>
+</html>
