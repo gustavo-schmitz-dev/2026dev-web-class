@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Perguntas Frequentes</h1>
+
+        <ul>
+          <li onclick="abrir(this)">
+            <h2>O que é JavaScript? <span>+</span></h2>
+            <p>
+              JavaScript é uma linguagem de programação utilizada para adicionar
+              interatividade às páginas web.
+            </p>
+          </li>
+          <li onclick="abrir(this)">
+            <h2>O que é DOM? <span>+</span></h2>
+            <p>
+              DOM é uma representação dos elementos HTML que permite sua
+              manipulação por JavaScript.
+            </p>
+          </li>
+          <li onclick="abrir(this)">
+            <h2>O que são eventos? <span>+</span></h2>
+            <p>
+              Eventos permitem executar ações em resposta às interações do
+              usuário.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      body {
+        background-color: #46575f;
+        color: white;
+        font-family:
+          "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+          Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 5vw auto;
+        padding-bottom: 2vw;
+        border-bottom: 1px solid white;
+        width: 50%;
+      }
+
+      ul {
+        background-color: #009688;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 14px;
+        box-shadow:  10px  15px  8px  2px  rgba(0, 0, 0, 0.2);
+      }
+
+      ul li {
+
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid white;
+      }
+
+      ul li:last-child {
+        border: none;
+      }
+
+      ul li p {
+        height: 0; /* Altur 0, mas estoura espaço */
+        overflow: hidden; /* Tira o espaço*/
+      }
+
+      h2 {
+        cursor: pointer;
+      }
+
+      .aberto {
+        height: 40px;
+        transition: all 0.3s ease;
+      }
+
+      ul li h2{
+        display: flex;
+        justify-content: space-between;
+    }
+    </style>
+
+    <script>
+      function abrir(elemento) {
+        elemento.querySelector("p").classList.toggle("aberto");
+        if(elemento.querySelector("span").innerText == "+"){
+            elemento.querySelector("span").innerText = "-";
+        }else{
+            elemento.querySelector("span").innerText = "+";
+        }
+    };    </script>
+  </body>
+</html>
